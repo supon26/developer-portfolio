@@ -140,3 +140,48 @@ main {
 .skill-description {
     color: #757575;
 }
+/* Resume styles */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-item .title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume-item .sub-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume-item .description{
+    color: #757575;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+/* contact styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact a{
+    text-decoration: none;
+}
+
+input ,textarea{
+    color: #757575;
+    margin: 15px 0;
+    width: 100%;
+    padding: 18px 30px;
+    border: 0;
+}
